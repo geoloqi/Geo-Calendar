@@ -1,5 +1,6 @@
 <?php
 include('inc/inc.php');
+include('inc/session.php');
 include('inc/header.php');
 ?>
 
@@ -15,9 +16,9 @@ include('inc/header.php');
       <hr>
 
       <div class="jumbotron">
-        <h1>Super awesome marketing speak!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <a class="btn btn-large btn-success" href="#">Sign up today</a>
+        <h1>Bring your event calendar to life!</h1>
+        <p class="lead">Import a calendar file into Geoloqi and get notified of events in your area before they happen.</p>
+        <a class="btn btn-large btn-success" href="/login.php">Sign In</a>
       </div>
 
       <hr>
