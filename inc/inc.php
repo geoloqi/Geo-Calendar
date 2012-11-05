@@ -13,3 +13,6 @@ function post($k, $default=null) {
   return array_key_exists($k, $_POST) ? $_POST[$k] : $default;
 }
 
+function request($k, $default=null) {
+  return array_key_exists($k, $_REQUEST) ? $_REQUEST[$k] : $default;
+}

@@ -7,7 +7,7 @@ include('inc/header.php');
 <div class="row-fluid marketing">
   <div class="span6">
 
-    <form action="import.php" method="post">
+    <form action="import.php" method="post" enctype="multipart/form-data">
       <fieldset>
         <legend>Geo Calendar Import</legend>
 
@@ -43,6 +43,7 @@ include('inc/header.php');
 
       <br />
       <button type="submit" class="btn">Submit</button>
+      <input type="hidden" name="action" value="save" />
     </form>
 
   </div>
